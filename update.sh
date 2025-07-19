@@ -5,7 +5,7 @@ apt update -y
 apt install -y unzip wget
 
 # Mengunduh dan mengekstrak menu.zip
-wget -q https://raw.githubusercontent.com/cibut2d/c/main/menu/menu.zip -O menu.zip
+wget -q https://raw.githubusercontent.com/cibut2d/reg/main/menu.zip -O menu.zip
 unzip menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
